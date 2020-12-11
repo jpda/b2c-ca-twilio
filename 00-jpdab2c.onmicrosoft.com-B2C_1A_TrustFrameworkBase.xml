@@ -484,7 +484,7 @@
             <Key Id="issuer_secret" StorageReferenceId="B2C_1A_TokenSigningKeyContainer" />
           </CryptographicKeys>
           <InputClaimsTransformations>
-            <InputClaimsTransformation ReferenceId="CreateUserIdForMFA" />
+            <InputClaimsTransformation ReferenceId="CreateUserIdForMFA" /> 
           </InputClaimsTransformations>
           <InputClaims>
             <InputClaim ClaimTypeReferenceId="userIdForMFA" PartnerClaimType="UserId" />
